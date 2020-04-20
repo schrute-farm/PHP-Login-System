@@ -26,9 +26,9 @@
 
   <body>
 
-    <div style="border: 1px solid red;"class="uk-section uk-container ">
-      <div style="border: 1px solid black;" class="uk-grid uk-child-width-1-3@s uk-child-width-1-1" uk-grid>
-        <form style="border: 1px solid yellow;" class="uk-form-stacked js-login">
+    <div style=""class="uk-section uk-container ">
+      <div style="" class="uk-grid uk-child-width-1-3@s uk-child-width-1-1" uk-grid>
+        <form style="" class="uk-form-stacked js-login">
           
             <h2>Login</h2>  
 
