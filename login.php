@@ -5,6 +5,7 @@
   //require config
   require_once "inc/config.php";
 
+  ForceDashboard();
 ?>
 
 <!DOCTYPE html>
@@ -19,6 +20,8 @@
 
     <base href="/" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.24/css/uikit.min.css" />
+    <!--<link rel="stylesheet" href="php_login_course/css/style.css" />-->
+
   </head>
 
   <body>
@@ -32,7 +35,7 @@
             <div class="uk-margin">
                 <label class="uk-form-label" for="form-stacked-text">Email</label>
                 <div class="uk-form-controls">
-                    <input class="uk-input" id="form-stacked-text" required = "required" type="email" placeholder="email@email.com">
+                    <input class="uk-input" id="fadeIn second" required = "required" type="email" placeholder="email@email.com">
                 </div>
             </div>
 

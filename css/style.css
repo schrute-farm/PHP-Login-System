@@ -1,0 +1,15 @@
+html {
+  /*background-color: #6878a0;*/
+}
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+}
+
+.js-login {
+  position: relative;
+  left: 35%;
+  top: 50%;
+}
+
+
