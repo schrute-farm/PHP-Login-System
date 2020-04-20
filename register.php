@@ -5,6 +5,7 @@
   //require config
   require_once "inc/config.php";
 
+
 ?>
 
 <!DOCTYPE html>
