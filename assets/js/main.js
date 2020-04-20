@@ -90,7 +90,7 @@ $(document)
 
 	$.ajax({
 		type: 'POST',
-		url: '/ajax/login.php',
+		url: 'php_login_course/ajax/login.php',
 		data: dataObj,
 		dataType: 'json',
 		async: true,
