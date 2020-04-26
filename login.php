@@ -20,7 +20,8 @@
 
     <base href="/" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.24/css/uikit.min.css" />
-    <!--<link rel="stylesheet" href="php_login_course/css/style.css" />-->
+   
+    <link rel="stylesheet" href="/php_login_course/css/login.css" />
 
   </head>
 
@@ -43,11 +44,14 @@
                 <label class="uk-form-label" for="form-stacked-select">Password</label>
                 <div class="uk-form-controls">
                     <input class="uk-input" id="form-stacked-text" required = "required" type="password" placeholder="Your Password">
+        
                 </div>
             </div>
+            
+          <div class="uk-margin uk-alert uk-alert-danger js-error" style='display: none;'></div>
 
             <div class="uk-margin">
-              <button class="uk-button uk-button-default" type="submit">Login</button>
+              <button class="uk-button uk-button-default" type="submit" >Login</button>
             </div>
 
 

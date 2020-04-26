@@ -24,17 +24,18 @@
 
 			if(password_verify($password, $hash)) {
 				// User is signed in
-				$return['redirect'] = '/dashboard.php';
+				$return['redirect'] = 'php_login_course/dashboard.php';
 
 				$_SESSION['user_id'] = $user_id;
 			} else {
 				// Invalid user email/password combo
-				$return['error'] = "Invalid user email/password combo";
+				
+				$return['error'] = "Invalid user email/password";
 			}
 
 		} else {
 			// They need to create a new account
-			$return['error'] = "You do not have an account. <a href='/register.php'>Create one now?</a>";
+			$return['error'] = "You do not have an account.";
 		}
 
 		echo json_encode($return, JSON_PRETTY_PRINT); exit;

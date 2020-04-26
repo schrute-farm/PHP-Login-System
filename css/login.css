@@ -1,0 +1,13 @@
+html, body {
+	background: url("../img/bg_index.jpg"); 
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;	
+}
+
+h2 {
+	font-family: "SEGOE UI";
+	color: black;
+	font-weight: 600;
+	text-decoration: underline;
+}
