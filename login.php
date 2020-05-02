@@ -5,7 +5,7 @@
   //require config
   require_once "inc/config.php";
 
-  ForceDashboard();
+  Page::ForceDashboard();
 ?>
 
 <!DOCTYPE html>
@@ -20,48 +20,41 @@
 
     <base href="/" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.24/css/uikit.min.css" />
-   
-    <link rel="stylesheet" href="/php_login_course/css/login.css" />
-
+    <link rel="stylesheet" href="php_login_course/css/login-design.css">
   </head>
 
   <body>
 
-    <div style=""class="uk-section uk-container ">
-      <div style="" class="uk-grid uk-child-width-1-3@s uk-child-width-1-1" uk-grid>
-        <form style="" class="uk-form-stacked js-login">
-          
-            <h2>Login</h2>  
-
-            <div class="uk-margin">
-                <label class="uk-form-label" for="form-stacked-text">Email</label>
-                <div class="uk-form-controls">
-                    <input class="uk-input" id="fadeIn second" required = "required" type="email" placeholder="email@email.com">
-                </div>
-            </div>
-
-            <div class="uk-margin">
-                <label class="uk-form-label" for="form-stacked-select">Password</label>
-                <div class="uk-form-controls">
-                    <input class="uk-input" id="form-stacked-text" required = "required" type="password" placeholder="Your Password">
+    <div class="uk-section uk-container">
+      <div class="uk-grid uk-child-width-1-3@s uk-child-width-1-1" uk-grid>
+      <form class="uk-form-stacked js-login">
         
-                </div>
-            </div>
-            
+        <h2>Login</h2>
+
+          <div class="uk-margin">
+              <label class="uk-form-label" for="form-stacked-text">Email</label>
+              <div class="uk-form-controls">
+                  <input class="uk-input" id="form-stacked-text" type="email" required='required' placeholder="email@email.com">
+              </div>
+          </div>
+
+          <div class="uk-margin">
+              <label class="uk-form-label" for="form-stacked-text">Password</label>
+              <div class="uk-form-controls">
+                  <input class="uk-input" id="form-stacked-text" type="password" required='required' placeholder="Your Password">
+              </div>
+          </div>
+
           <div class="uk-margin uk-alert uk-alert-danger js-error" style='display: none;'></div>
 
-            <div class="uk-margin">
-              <button class="uk-button uk-button-default" type="submit" >Login</button>
-            </div>
+          <div class="uk-margin">
+              <button class="uk-button uk-button-primary" type="submit">Login</button>
+          </div>
 
-
-           
-
-        </form>
+      </form>
       </div>
     </div>
 
-    <?php require_once "inc/footer.php";  ?>
-
+    <?php require_once "inc/footer.php"; ?> 
   </body>
 </html>
